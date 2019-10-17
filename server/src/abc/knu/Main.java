@@ -8,7 +8,7 @@ import java.net.SocketException;
 public class Main {
     public static void main(String[] args) {
         try {
-            DatagramSocket ds = new DatagramSocket(8000);
+            DatagramSocket ds = new DatagramSocket(6000);
             byte[] buf = new byte[1024];
             DatagramPacket dp = new DatagramPacket(buf, buf.length);
             do {
